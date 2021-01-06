@@ -32,6 +32,7 @@ p{
     font-size: 16px;
     color: grey;
 }
+
 .half-width{
     width: 40%;
     float: left;
@@ -50,7 +51,8 @@ p{
     float: left;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+    padding-top: 20%;
 }
 section{
     height: 400px;
@@ -74,6 +76,7 @@ h3{
 }
 #latest-project{
     text-align: center;
+    padding-top: 100px;
     padding-bottom: 0px;
     height: 100px;
 }
@@ -85,12 +88,68 @@ h3{
     margin-left: 3%;
     float: left;
     padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    height: 80%;
 }
 .project-box img{
    width: 100%;
 }
-.project-box{
-    box-shadow: 8px 8px 5px whitesmoke;
-    border-radius: 20px;
-    height: 80%;
+
+#stay-connected{
+    text-align: center;
+    font-size: 24px;
+    color: grey;
+    font-family: 'Bebas Neue', cursive;
+}
+#work-inquiry{
+    height: 50px;
+    background-image: url(images/Group_33094_1.png);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+#inquiry{
+    width: 55%;
+    height: 100px;
+    Float : left;
+    padding-left: 5%;
+    color: white;
+    font-size: 52px;
+    font-family: 'Bebas Neue', cursive;
+}
+.button{
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+  
+    padding-top: 65px;
+}
+.Connected{
+    text-align: center;
+}
+#stay{
+    font-family:'Bebas Neue', cursive;
+    font-size: 24px;
+    
+}
+#elo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color:#363958;
+}
+
+.foot{
+    margin-left: 30%;
+    padding-bottom: 0%;
+    padding-left: 30%;
+}
+.icon{
+    float: left;
+    height: 36px;
+    width: 36px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
